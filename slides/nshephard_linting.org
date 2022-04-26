@@ -1,0 +1,68 @@
+#    -*- mode: org -*-
+#+OPTIONS: timestamp:nil toc:1 reveal_mathjax:t num:nil reveal_width:1200 reveal_height:800
+:REVEAL_PROPERTIES:
+#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
+#+REVEAL_REVEAL_JS_VERSION: 4
+#+REVEAL_THEME: moon
+#+REVEAL_MIN_SCALE: 0.2
+#+REVEAL_MAX_SCALE: 2.5
+#+REVEAL_INIT_OPTIONS: slideNumber:true
+#+REVEAL_HLEVEL: 1
+:END:
+
+#+TITLE: Linting - What is all the fluff about?
+#+AUTHOR: Neil Shephard
+#+EMAIL: n.shephard@sheffield.ac.uk
+
+* Content
+#+ATTR_REVEAL: :frag (roll-in) :frag-idx (4 3 2 1)
++ What is Linting?
++ Why Lint your code?
++ When to Lint your code?
++ How to Lint your code?
+  + Command Line
+  + IDE plugins
+  + Continuous Integration
++ Resources
+
+* What is Linting?
+#+ATTR_REVEAL: :frag (roll-in) :frag-idx (4 3 2 1)
++ Static code analysis to ensure it complies with a given Style Guide.
++ Can also identify errors in formatting
++ Identify and reduce "smells" such as code duplication.
++
+
+* Why Lint your code?
+#+ATTR_REVEAL: :frag (roll-in) :frag-idx (4 3 2 1)
+
++ Reduce bugs.
++ Improve performance.
++ Mitigate against some security flaws.
++ Consistent coding style.
++ Maybe improve coding skills.
++ **Reduce technical debt**
+
+* Style Matters
+#+ATTR_REVEAL: :frag (roll-in) :frag-idx (4 3 2 1)
+
+
+
+* When to Lint your code?
+#+ATTR_REVEAL: :frag (roll-in) :frag-idx (4 3 2 1)
+
++ The earlier the better, avoids technical debt of doing so retrospectively.
++ Ensures readability and that the git "blame" is correctly attributed.
++ Simple to integrate into workflow.
+
+* How to Lint your code
+
++ There are linters for most languages available.
++ Worked example with Python using pylint and blacken.
+
+** Command line Linting
+
+** IDE plugins
+
+** Continous Integration
+
+* Resources
